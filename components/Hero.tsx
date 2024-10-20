@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import Image from 'next/image';
+import Link from 'next/link'; // Import Link from next/link
 import { Spotlight } from "./ui/Spotlight";
 import { RightDock } from "./ui/right-dock";
 import { LeftDock } from "./ui/left-dock";
@@ -79,8 +80,7 @@ const Hero = () => {
           className="w-6 h-6" 
         />
       ),
-      href: "https://www.linkedin.com/in/saadsalmanakram/",
-      target: "_blank"
+      href: "/", // Adjusted for home link
     },
     {
       title: "Projects",
@@ -93,8 +93,7 @@ const Hero = () => {
           className="w-6 h-6" 
         />
       ),
-      href: "https://www.linkedin.com/in/saadsalmanakram/",
-      target: "_blank"
+      href: "/projects", // Adjusted for projects link
     },
     {
       title: "My Skills",
@@ -208,7 +207,15 @@ const Hero = () => {
 
         {/* Top Left Floating Dock */}
         <div className={`absolute top-4 left-1 transition-opacity transform duration-1000 ease-in-out ${showLeftDock ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'}`}>
-          <LeftDock items={ldockItems} />
+          <LeftDock items={ldockItems.map(item => ({
+            ...item,
+            // Use Link component for navigation
+            icon: (
+              <Link href={item.href}>
+                {item.icon}
+              </Link>
+            ),
+          }))} />
         </div>
       </div>
     </div>
