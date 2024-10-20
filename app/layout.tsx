@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Saad Salman",
+  title: "HowdyBytes",
   description: "Welcome to my Portfolio Site",
 };
 
