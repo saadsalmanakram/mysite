@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const PublicationHero = () => {
   return (
-    <div className="mt-8"> {/* Add margin-top here */}
+    <div className="mt-8 mb-8"> {/* Added margin-bottom here */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 justify-items-center">
         {/* Card 1 */}
         <BackgroundGradient className="rounded-[22px] w-full max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 min-h-[650px] flex flex-col justify-between items-center">
@@ -14,7 +14,7 @@ const PublicationHero = () => {
             alt="jordans"
             height="400"
             width="400"
-            className="object-contain rounded-[22px]" // Add rounded class here
+            className="object-contain"
             unoptimized // Optional, use this if you're experiencing issues with optimization
           />
           <div className="text-center">
@@ -42,7 +42,7 @@ const PublicationHero = () => {
             alt="nike shoes"
             height="400"
             width="400"
-            className="object-contain rounded-[22px]" // Add rounded class here
+            className="object-contain"
             unoptimized
           />
           <div className="text-center">
@@ -69,7 +69,7 @@ const PublicationHero = () => {
             alt="adidas shoes"
             height="400"
             width="400"
-            className="object-contain rounded-[22px]" // Add rounded class here
+            className="object-contain"
             unoptimized
           />
           <div className="text-center">
@@ -96,7 +96,7 @@ const PublicationHero = () => {
             alt="puma shoes"
             height="400"
             width="400"
-            className="object-contain rounded-[22px]" // Add rounded class here
+            className="object-contain"
             unoptimized
           />
           <div className="text-center">
