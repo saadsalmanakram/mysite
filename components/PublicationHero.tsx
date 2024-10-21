@@ -27,12 +27,9 @@ const PublicationHero = () => {
               entering raffles and waiting for the official releases.
             </p>
           </div>
-          <a 
-            href="https://medium.com/@saadsalmanakram1/high-dimensional-space-how-semantics-redefined-the-landscape-7ba94c198b58" 
-            className="rounded-full py-2 px-4 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
-          >
-            <span>Read here!</span>
-          </a>
+          <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
+            Read here!
+          </button>
         </BackgroundGradient>
 
         {/* Card 2 */}
@@ -54,12 +51,9 @@ const PublicationHero = () => {
               March 10, 2024. Don&apos;t miss out on these timeless kicks!
             </p>
           </div>
-          <a 
-            href="https://medium.com/@saadsalmanakram1/high-dimensional-space-how-semantics-redefined-the-landscape-7ba94c198b58" 
-            className="rounded-full py-2 px-4 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
-          >
-            <span>Read here!</span>
-          </a>
+          <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
+            Read here!
+          </button>
         </BackgroundGradient>
 
         {/* Card 3 */}
@@ -81,12 +75,9 @@ const PublicationHero = () => {
               Available for purchase from April 5, 2024.
             </p>
           </div>
-          <a 
-            href="https://medium.com/@saadsalmanakram1/high-dimensional-space-how-semantics-redefined-the-landscape-7ba94c198b58" 
-            className="rounded-full py-2 px-4 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
-          >
-            <span>Read here!</span>
-          </a>
+          <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
+            Read here!
+          </button>
         </BackgroundGradient>
 
         {/* Card 4 */}
@@ -108,12 +99,9 @@ const PublicationHero = () => {
               starting February 28, 2024.
             </p>
           </div>
-          <a 
-            href="https://medium.com/@saadsalmanakram1/high-dimensional-space-how-semantics-redefined-the-landscape-7ba94c198b58" 
-            className="rounded-full py-2 px-4 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
-          >
-            <span>Read here!</span>
-          </a>
+          <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
+            Read here!
+          </button>
         </BackgroundGradient>
       </div>
     </div>
