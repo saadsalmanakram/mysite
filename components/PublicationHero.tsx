@@ -14,7 +14,7 @@ const PublicationHero = () => {
             alt="jordans"
             height="400"
             width="400"
-            className="object-contain"
+            className="object-contain rounded-[22px]" // Added rounded corners here
             unoptimized // Optional, use this if you're experiencing issues with optimization
           />
           <div className="text-center">
@@ -42,7 +42,7 @@ const PublicationHero = () => {
             alt="nike shoes"
             height="400"
             width="400"
-            className="object-contain"
+            className="object-contain rounded-[22px]" // Added rounded corners here
             unoptimized
           />
           <div className="text-center">
@@ -69,7 +69,7 @@ const PublicationHero = () => {
             alt="adidas shoes"
             height="400"
             width="400"
-            className="object-contain"
+            className="object-contain rounded-[22px]" // Added rounded corners here
             unoptimized
           />
           <div className="text-center">
@@ -96,7 +96,7 @@ const PublicationHero = () => {
             alt="puma shoes"
             height="400"
             width="400"
-            className="object-contain"
+            className="object-contain rounded-[22px]" // Added rounded corners here
             unoptimized
           />
           <div className="text-center">
