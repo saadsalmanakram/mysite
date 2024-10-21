@@ -2,6 +2,7 @@
 import React from "react";
 import { BackgroundGradient } from "./ui/background-gradient";
 import Image from "next/image";
+import Link from "next/link"; // Import Link from next/link
 
 const PublicationHero = () => {
   return (
@@ -12,9 +13,9 @@ const PublicationHero = () => {
           <Image
             src="https://cdn.pixabay.com/photo/2017/05/28/18/58/cube-2351878_1280.jpg" // Replace with the actual URL
             alt="jordans"
-            height={400} // Fixed height
-            width={400} // Fixed width
-            className="object-cover rounded-[22px] h-64 w-64" // Added fixed size with object-cover
+            height={400}
+            width={400}
+            className="object-cover rounded-[22px] h-64 w-64"
             unoptimized
           />
           <div className="text-center">
@@ -27,9 +28,11 @@ const PublicationHero = () => {
               spaces, enhancing our analysis and interpretation of complex information.
             </p>
           </div>
-          <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-lg border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
-            Read here!
-          </button>
+          <Link href="https://medium.com/@saadsalmanakram1/high-dimensional-space-how-semantics-redefined-the-landscape-7ba94c198b58" passHref> {/* Add the link to the article */}
+            <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-lg border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
+              Read here!
+            </button>
+          </Link>
         </BackgroundGradient>
 
         {/* Card 2 */}
@@ -39,7 +42,7 @@ const PublicationHero = () => {
             alt="nike shoes"
             height={400}
             width={400}
-            className="object-cover rounded-[22px] h-64 w-64" // Fixed size with object-cover
+            className="object-cover rounded-[22px] h-64 w-64"
             unoptimized
           />
           <div className="text-center">
@@ -51,9 +54,11 @@ const PublicationHero = () => {
               March 10, 2024. Don&apos;t miss out on these timeless kicks!
             </p>
           </div>
-          <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-lg border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
-            Read here!
-          </button>
+          <Link href="/path-to-article-2" passHref> {/* Add the link to the article */}
+            <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-lg border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
+              Read here!
+            </button>
+          </Link>
         </BackgroundGradient>
 
         {/* Card 3 */}
@@ -63,7 +68,7 @@ const PublicationHero = () => {
             alt="adidas shoes"
             height={400}
             width={400}
-            className="object-cover rounded-[22px] h-64 w-64" // Fixed size with object-cover
+            className="object-cover rounded-[22px] h-64 w-64"
             unoptimized
           />
           <div className="text-center">
@@ -75,9 +80,11 @@ const PublicationHero = () => {
               Available for purchase from April 5, 2024.
             </p>
           </div>
-          <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-lg border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
-            Read here!
-          </button>
+          <Link href="/path-to-article-3" passHref> {/* Add the link to the article */}
+            <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-lg border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
+              Read here!
+            </button>
+          </Link>
         </BackgroundGradient>
 
         {/* Card 4 */}
@@ -87,7 +94,7 @@ const PublicationHero = () => {
             alt="puma shoes"
             height={400}
             width={400}
-            className="object-cover rounded-[22px] h-64 w-64" // Fixed size with object-cover
+            className="object-cover rounded-[22px] h-64 w-64"
             unoptimized
           />
           <div className="text-center">
@@ -99,9 +106,11 @@ const PublicationHero = () => {
               starting February 28, 2024.
             </p>
           </div>
-          <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-lg border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
-            Read here!
-          </button>
+          <Link href="/path-to-article-4" passHref> {/* Add the link to the article */}
+            <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-lg border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
+              Read here!
+            </button>
+          </Link>
         </BackgroundGradient>
       </div>
     </div>
