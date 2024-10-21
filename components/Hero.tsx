@@ -96,20 +96,6 @@ const Hero = () => {
       href: "/projects", // Adjusted for projects link
     },
     {
-      title: "My Skills",
-      icon: (
-        <Image 
-          src="https://www.svgrepo.com/show/525812/code-file.svg" 
-          alt="My Skills" 
-          width={24} 
-          height={24} 
-          className="w-6 h-6" 
-        />
-      ),
-      href: "https://www.linkedin.com/in/saadsalmanakram/",
-      target: "_blank"
-    },
-    {
       title: "Publications",
       icon: (
         <Image 
@@ -129,20 +115,6 @@ const Hero = () => {
         <Image 
           src="https://www.svgrepo.com/show/525762/chat-round-like.svg" 
           alt="About me" 
-          width={24} 
-          height={24} 
-          className="w-6 h-6" 
-        />
-      ),
-      href: "https://www.linkedin.com/in/saadsalmanakram/",
-      target: "_blank"
-    },
-    {
-      title: "Contact me",
-      icon: (
-        <Image 
-          src="https://www.svgrepo.com/show/422037/contact.svg" 
-          alt="Contact me" 
           width={24} 
           height={24} 
           className="w-6 h-6" 
