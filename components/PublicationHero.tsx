@@ -28,7 +28,7 @@ const PublicationHero = () => {
             </p>
           </div>
           <a href="YOUR_LINK_HERE" className="rounded-full pl-4 pr-1 py-1 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
-            <span>Read</span>
+            <span>Read here!</span>
           </a>
         </BackgroundGradient>
 
@@ -52,7 +52,7 @@ const PublicationHero = () => {
             </p>
           </div>
           <a href="YOUR_LINK_HERE" className="rounded-full pl-4 pr-1 py-1 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
-            <span>Read</span>
+            <span>Read here!</span>
           </a>
         </BackgroundGradient>
 
@@ -76,7 +76,7 @@ const PublicationHero = () => {
             </p>
           </div>
           <a href="YOUR_LINK_HERE" className="rounded-full pl-4 pr-1 py-1 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
-            <span>Read</span>
+            <span>Read here!</span>
           </a>
         </BackgroundGradient>
 
@@ -100,7 +100,7 @@ const PublicationHero = () => {
             </p>
           </div>
           <a href="YOUR_LINK_HERE" className="rounded-full pl-4 pr-1 py-1 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
-            <span>Read</span>
+            <span>Read here!</span>
           </a>
         </BackgroundGradient>
       </div>
