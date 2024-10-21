@@ -19,12 +19,12 @@ const PublicationHero = () => {
           />
           <div className="text-center">
             <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-              Air Jordan 4 Retro Reimagined
+              High-Dimensional Space
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400">
-              The Air Jordan 4 Retro Reimagined Bred will release on Saturday,
-              February 17, 2024. Your best opportunity to get these right now is by
-              entering raffles and waiting for the official releases.
+            Data often exists in high-dimensional spaces, where each feature adds another dimension. 
+            This article explores how semantic representation transforms our understanding of these 
+            spaces, enhancing our analysis and interpretation of complex information.
             </p>
           </div>
           <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-lg border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
