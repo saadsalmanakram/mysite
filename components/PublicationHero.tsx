@@ -27,12 +27,12 @@ const PublicationHero = () => {
               entering raffles and waiting for the official releases.
             </p>
           </div>
-          <a 
-            href="https://medium.com/@saadsalmanakram1/high-dimensional-space-how-semantics-redefined-the-landscape-7ba94c198b58" 
-            className="rounded-full py-2 px-4 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
-          >
-            <span>Read here!</span>
-          </a>
+          <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
+            <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+            <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+              Read here!
+            </span>
+          </button>
         </BackgroundGradient>
 
         {/* Card 2 */}
@@ -54,12 +54,12 @@ const PublicationHero = () => {
               March 10, 2024. Don&apos;t miss out on these timeless kicks!
             </p>
           </div>
-          <a 
-            href="https://medium.com/@saadsalmanakram1/high-dimensional-space-how-semantics-redefined-the-landscape-7ba94c198b58" 
-            className="rounded-full py-2 px-4 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
-          >
-            <span>Read here!</span>
-          </a>
+          <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
+            <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+            <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+              Read here!
+            </span>
+          </button>
         </BackgroundGradient>
 
         {/* Card 3 */}
@@ -81,12 +81,12 @@ const PublicationHero = () => {
               Available for purchase from April 5, 2024.
             </p>
           </div>
-          <a 
-            href="https://medium.com/@saadsalmanakram1/high-dimensional-space-how-semantics-redefined-the-landscape-7ba94c198b58" 
-            className="rounded-full py-2 px-4 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
-          >
-            <span>Read here!</span>
-          </a>
+          <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
+            <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+            <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+              Read here!
+            </span>
+          </button>
         </BackgroundGradient>
 
         {/* Card 4 */}
@@ -108,12 +108,12 @@ const PublicationHero = () => {
               starting February 28, 2024.
             </p>
           </div>
-          <a 
-            href="https://medium.com/@saadsalmanakram1/high-dimensional-space-how-semantics-redefined-the-landscape-7ba94c198b58" 
-            className="rounded-full py-2 px-4 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
-          >
-            <span>Read here!</span>
-          </a>
+          <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-4">
+            <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+            <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+              Read here!
+            </span>
+          </button>
         </BackgroundGradient>
       </div>
     </div>
