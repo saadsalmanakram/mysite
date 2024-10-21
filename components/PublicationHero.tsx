@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const PublicationHero = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 justify-items-center">
       {/* Card 1 */}
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
+      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 mx-auto">
         <Image
           src={`/jordans.webp`}
           alt="jordans"
@@ -33,7 +33,7 @@ const PublicationHero = () => {
       </BackgroundGradient>
 
       {/* Card 2 */}
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
+      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 mx-auto">
         <Image
           src={`/nike.webp`}
           alt="nike shoes"
@@ -58,7 +58,7 @@ const PublicationHero = () => {
       </BackgroundGradient>
 
       {/* Card 3 */}
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
+      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 mx-auto">
         <Image
           src={`/adidas.webp`}
           alt="adidas shoes"
@@ -83,7 +83,7 @@ const PublicationHero = () => {
       </BackgroundGradient>
 
       {/* Card 4 */}
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
+      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 mx-auto">
         <Image
           src={`/puma.webp`}
           alt="puma shoes"
