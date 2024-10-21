@@ -7,7 +7,7 @@ const PublicationHero = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 justify-items-center">
       {/* Card 1 */}
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 min-h-[550px] flex flex-col justify-between items-center">
+      <BackgroundGradient className="rounded-[22px] w-full max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 min-h-[650px] flex flex-col justify-between items-center">
         <Image
           src={`/jordans.webp`}
           alt="jordans"
@@ -35,7 +35,7 @@ const PublicationHero = () => {
       </BackgroundGradient>
 
       {/* Card 2 */}
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 min-h-[550px] flex flex-col justify-between items-center">
+      <BackgroundGradient className="rounded-[22px] w-full max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 min-h-[650px] flex flex-col justify-between items-center">
         <Image
           src={`/nike.webp`}
           alt="nike shoes"
@@ -62,7 +62,7 @@ const PublicationHero = () => {
       </BackgroundGradient>
 
       {/* Card 3 */}
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 min-h-[550px] flex flex-col justify-between items-center">
+      <BackgroundGradient className="rounded-[22px] w-full max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 min-h-[650px] flex flex-col justify-between items-center">
         <Image
           src={`/adidas.webp`}
           alt="adidas shoes"
@@ -89,7 +89,7 @@ const PublicationHero = () => {
       </BackgroundGradient>
 
       {/* Card 4 */}
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 min-h-[550px] flex flex-col justify-between items-center">
+      <BackgroundGradient className="rounded-[22px] w-full max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 min-h-[650px] flex flex-col justify-between items-center">
         <Image
           src={`/puma.webp`}
           alt="puma shoes"
