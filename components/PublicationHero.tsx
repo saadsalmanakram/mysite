@@ -9,7 +9,7 @@ const PublicationHero = () => {
       {/* Card 1 */}
       <BackgroundGradient className="rounded-[22px] w-full max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 min-h-[650px] flex flex-col justify-between items-center">
         <Image
-          src={`/jordans.webp`}
+          src={`https://medium.com/@saadsalmanakram1/high-dimensional-space-how-semantics-redefined-the-landscape-7ba94c198b58`}
           alt="jordans"
           height="400"
           width="400"
