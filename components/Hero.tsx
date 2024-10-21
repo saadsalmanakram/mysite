@@ -120,7 +120,7 @@ const Hero = () => {
           className="w-6 h-6" 
         />
       ),
-      href: "https://medium.com/@saadsalmanakram1",
+      href: "/publications",
       target: "_blank"
     },
     {
