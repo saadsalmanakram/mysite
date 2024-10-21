@@ -28,7 +28,7 @@ const PublicationHero = () => {
             </p>
           </div>
           <a 
-            href="YOUR_LINK_HERE" 
+            href="https://medium.com/@saadsalmanakram1/high-dimensional-space-how-semantics-redefined-the-landscape-7ba94c198b58" 
             className="rounded-full py-2 px-4 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
           >
             <span>Read here!</span>
@@ -55,7 +55,7 @@ const PublicationHero = () => {
             </p>
           </div>
           <a 
-            href="YOUR_LINK_HERE" 
+            href="https://medium.com/@saadsalmanakram1/high-dimensional-space-how-semantics-redefined-the-landscape-7ba94c198b58" 
             className="rounded-full py-2 px-4 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
           >
             <span>Read here!</span>
@@ -82,7 +82,7 @@ const PublicationHero = () => {
             </p>
           </div>
           <a 
-            href="YOUR_LINK_HERE" 
+            href="https://medium.com/@saadsalmanakram1/high-dimensional-space-how-semantics-redefined-the-landscape-7ba94c198b58" 
             className="rounded-full py-2 px-4 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
           >
             <span>Read here!</span>
@@ -109,7 +109,7 @@ const PublicationHero = () => {
             </p>
           </div>
           <a 
-            href="YOUR_LINK_HERE" 
+            href="https://medium.com/@saadsalmanakram1/high-dimensional-space-how-semantics-redefined-the-landscape-7ba94c198b58" 
             className="rounded-full py-2 px-4 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
           >
             <span>Read here!</span>
