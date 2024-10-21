@@ -47,7 +47,7 @@ const PublicationHero = () => {
 
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
           The classic Nike Air Max 90 in a new colorway. Available starting
-          March 10, 2024. Don't miss out on these timeless kicks!
+          March 10, 2024. Don&apos;t miss out on these timeless kicks!
         </p>
         <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
           <span>Buy now </span>
