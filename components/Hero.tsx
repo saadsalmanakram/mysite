@@ -109,20 +109,6 @@ const Hero = () => {
       href: "/publications",
       target: "_blank"
     },
-    {
-      title: "Get to know me",
-      icon: (
-        <Image 
-          src="https://www.svgrepo.com/show/525762/chat-round-like.svg" 
-          alt="About me" 
-          width={24} 
-          height={24} 
-          className="w-6 h-6" 
-        />
-      ),
-      href: "https://www.linkedin.com/in/saadsalmanakram/",
-      target: "_blank"
-    },
   ];
 
   useEffect(() => {
