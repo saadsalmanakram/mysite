@@ -27,7 +27,10 @@ const PublicationHero = () => {
               entering raffles and waiting for the official releases.
             </p>
           </div>
-          <a href="YOUR_LINK_HERE" className="rounded-full pl-4 pr-1 py-1 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
+          <a 
+            href="YOUR_LINK_HERE" 
+            className="rounded-full py-2 px-4 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
+          >
             <span>Read here!</span>
           </a>
         </BackgroundGradient>
@@ -51,7 +54,10 @@ const PublicationHero = () => {
               March 10, 2024. Don&apos;t miss out on these timeless kicks!
             </p>
           </div>
-          <a href="YOUR_LINK_HERE" className="rounded-full pl-4 pr-1 py-1 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
+          <a 
+            href="YOUR_LINK_HERE" 
+            className="rounded-full py-2 px-4 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
+          >
             <span>Read here!</span>
           </a>
         </BackgroundGradient>
@@ -75,7 +81,10 @@ const PublicationHero = () => {
               Available for purchase from April 5, 2024.
             </p>
           </div>
-          <a href="YOUR_LINK_HERE" className="rounded-full pl-4 pr-1 py-1 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
+          <a 
+            href="YOUR_LINK_HERE" 
+            className="rounded-full py-2 px-4 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
+          >
             <span>Read here!</span>
           </a>
         </BackgroundGradient>
@@ -99,7 +108,10 @@ const PublicationHero = () => {
               starting February 28, 2024.
             </p>
           </div>
-          <a href="YOUR_LINK_HERE" className="rounded-full pl-4 pr-1 py-1 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
+          <a 
+            href="YOUR_LINK_HERE" 
+            className="rounded-full py-2 px-4 text-white flex items-center justify-center bg-black mt-4 text-xs font-bold dark:bg-zinc-800"
+          >
             <span>Read here!</span>
           </a>
         </BackgroundGradient>
