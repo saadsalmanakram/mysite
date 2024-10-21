@@ -10,7 +10,7 @@ const PublicationHero = () => {
         {/* Card 1 */}
         <BackgroundGradient className="rounded-[22px] w-full max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 min-h-[650px] flex flex-col justify-between items-center">
           <Image
-            src="https://cdn.pixabay.com/photo/2022/03/12/07/29/dragon-7063555_1280.png" // Replace with the actual URL
+            src="https://cdn.pixabay.com/photo/2017/05/28/18/58/cube-2351878_1280.jpg" // Replace with the actual URL
             alt="jordans"
             height="400"
             width="400"
