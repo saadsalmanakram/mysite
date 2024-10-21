@@ -9,7 +9,7 @@ const PublicationHero = () => {
       {/* Card 1 */}
       <BackgroundGradient className="rounded-[22px] w-full max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 min-h-[650px] flex flex-col justify-between items-center">
         <Image
-          src={`https://medium.com/@saadsalmanakram1/high-dimensional-space-how-semantics-redefined-the-landscape-7ba94c198b58`}
+          src={`https://cdn.pixabay.com/photo/2015/05/26/23/52/technology-785742_1280.jpg`}
           alt="jordans"
           height="400"
           width="400"
@@ -37,7 +37,7 @@ const PublicationHero = () => {
       {/* Card 2 */}
       <BackgroundGradient className="rounded-[22px] w-full max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 min-h-[650px] flex flex-col justify-between items-center">
         <Image
-          src={`/nike.webp`}
+          src={`https://cdn.pixabay.com/photo/2023/11/19/14/10/hangzhou-8398789_1280.jpg`}
           alt="nike shoes"
           height="400"
           width="400"
@@ -64,7 +64,7 @@ const PublicationHero = () => {
       {/* Card 3 */}
       <BackgroundGradient className="rounded-[22px] w-full max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 min-h-[650px] flex flex-col justify-between items-center">
         <Image
-          src={`/adidas.webp`}
+          src={`https://cdn.pixabay.com/photo/2024/02/28/17/16/ai-generated-8602502_1280.jpg`}
           alt="adidas shoes"
           height="400"
           width="400"
@@ -91,7 +91,7 @@ const PublicationHero = () => {
       {/* Card 4 */}
       <BackgroundGradient className="rounded-[22px] w-full max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 min-h-[650px] flex flex-col justify-between items-center">
         <Image
-          src={`/puma.webp`}
+          src={`https://cdn.pixabay.com/photo/2024/05/23/09/12/ai-generated-8782744_1280.jpg`}
           alt="puma shoes"
           height="400"
           width="400"
